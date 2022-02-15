@@ -75,7 +75,6 @@ layout=go.Layout(margin=dict(l=0,r=0,b=0,t=0))
 fig=go.Figure(data=data, layout=layout)
 st.header("3D Plotting the factors on countries:")
 st.plotly_chart(fig)
-import chart_studio.plotly as py
 import numpy as np
 
 data = [dict(
